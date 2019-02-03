@@ -169,7 +169,7 @@ a {
 }
 
 .modal__window {
-  display: none;
+  display: block;
   width: 50%;
   max-height: 80%;
   overflow: auto;
@@ -177,10 +177,6 @@ a {
   padding: 40px;
   border-radius: 10px;
   background: white;
-}
-
-.modal__window.--active {
-  display: block;
 }
 
 .modal__card {
